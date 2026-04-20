@@ -1,0 +1,16 @@
+{
+  "window": 20,
+  "epochs": 100,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "loss_function": "binary_crossentropy",
+  "early_stopping_patience": 4,
+  "reduce_lr_patience": 2,
+  "reduce_lr_factor": 0.5,
+  "dropout_rates": 0.2,
+  "lstm_units": 64,
+  "dense_units": 16,
+  "train_samples": 3054,
+  "test_samples": 749
+}
