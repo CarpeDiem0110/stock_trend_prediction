@@ -1,0 +1,57 @@
+[
+  {
+    "fold": 1,
+    "train_end": "2021-12-03",
+    "test_start": "2021-12-06",
+    "test_end": "2022-07-18",
+    "train_samples": 3054,
+    "test_samples": 154,
+    "accuracy": 0.4156,
+    "f1_score": 0.0,
+    "roc_auc": 0.5358
+  },
+  {
+    "fold": 2,
+    "train_end": "2022-07-18",
+    "test_start": "2022-07-19",
+    "test_end": "2023-02-24",
+    "train_samples": 3208,
+    "test_samples": 154,
+    "accuracy": 0.4351,
+    "f1_score": 0.0,
+    "roc_auc": 0.5931
+  },
+  {
+    "fold": 3,
+    "train_end": "2023-02-24",
+    "test_start": "2023-02-27",
+    "test_end": "2023-10-09",
+    "train_samples": 3362,
+    "test_samples": 154,
+    "accuracy": 0.4675,
+    "f1_score": 0.3881,
+    "roc_auc": 0.4727
+  },
+  {
+    "fold": 4,
+    "train_end": "2023-10-09",
+    "test_start": "2023-10-10",
+    "test_end": "2024-05-21",
+    "train_samples": 3516,
+    "test_samples": 154,
+    "accuracy": 0.4935,
+    "f1_score": 0.0,
+    "roc_auc": 0.4956
+  },
+  {
+    "fold": 5,
+    "train_end": "2024-05-21",
+    "test_start": "2024-05-22",
+    "test_end": "2024-12-30",
+    "train_samples": 3670,
+    "test_samples": 153,
+    "accuracy": 0.4314,
+    "f1_score": 0.3556,
+    "roc_auc": 0.4329
+  }
+]

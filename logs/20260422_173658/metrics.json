@@ -1,0 +1,11 @@
+{
+  "evaluation_method": "walk_forward",
+  "initial_train_ratio": 0.8,
+  "walk_forward_splits": 5,
+  "evaluated_samples": 769,
+  "accuracy": 0.4486,
+  "precision": 0.3906,
+  "recall": 0.1263,
+  "f1_score": 0.1908,
+  "roc_auc": 0.4392
+}
