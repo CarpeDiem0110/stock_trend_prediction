@@ -1,0 +1,32 @@
+{
+  "window": 20,
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "loss_function": "binary_crossentropy",
+  "early_stopping_patience": 10,
+  "reduce_lr_patience": 8,
+  "reduce_lr_factor": 0.5,
+  "dropout_rates": 0.2,
+  "lstm_units": 64,
+  "dense_units": 16,
+  "evaluation_method": "walk_forward",
+  "train_ratio": 0.8,
+  "wf_test_days": 21,
+  "wf_step_days": 21,
+  "walk_forward_splits": 37,
+  "validation_split": 0.15,
+  "shuffle": false,
+  "train_samples": 3054,
+  "backtest_samples": 769,
+  "train_start": "2010-01-21",
+  "initial_train_end": "2021-12-03",
+  "test_start": "2021-12-06",
+  "test_end": "2024-12-30",
+  "class_weight_strategy": "balanced",
+  "class_weights": {
+    "0": 0.9670050761421319,
+    "1": 1.0353260869565217
+  }
+}
